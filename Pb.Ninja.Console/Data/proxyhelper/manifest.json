@@ -1,0 +1,19 @@
+{
+    "name": "Proxy Helper",
+    "version": "1.0.31",
+    "manifest_version": 2,
+    "description": "My description",
+    "background": {
+        "scripts": [ "background.js" ]
+    },
+    "browser_action": {
+        "default_title": "Proxy Helper"
+    },
+    "permissions": [
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}
+
